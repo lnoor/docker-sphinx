@@ -22,6 +22,6 @@ Build documentation::
 
    $ docker -ti -v $PWD:/work sphinx make clean html epub latexpdf
 
-_Docker:: https://www.docker.com
-_Sphinx:: https://www.sphinx-doc.org/en/master/
+.. _Docker: https://www.docker.com
+.. _Sphinx: https://www.sphinx-doc.org/en/master/
 
