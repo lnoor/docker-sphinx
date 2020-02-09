@@ -1,7 +1,7 @@
 Dockerfile for Sphinx
 =====================
 
-This Ddocker_ container offers the Sphinx_ documentation utility.
+This Docker_ container offers the Sphinx_ documentation utility.
 I found it cumbersome to figure out what packages to install to get Sphinx to work
 on the various systems I use.
 Deploying this container resolves that problem.
