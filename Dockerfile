@@ -5,7 +5,8 @@ WORKDIR /work
 RUN apt-get update \
     && apt-get -y upgrade \
     && apt-get -y --no-install-recommends install make texlive-base dvipng graphviz imagemagick libjs-mathjax \
-    && apt-get -y --no-install-recommends install latexmk texlive-fonts-recommended texlive-fonts-extra texlive-latex-extra texlive-latex-recommended lmodern \
+    && apt-get -y --no-install-recommends install latexmk texlive-fonts-recommended texlive-fonts-extra \
+    && apt-get -y --no-install-recommends install texlive-latex-extra texlive-latex-recommended lmodern tex-gyre \
     && apt-get -y --no-install-recommends install python3 python3-pip libstemmer0d \
     && apt-get -y --no-install-recommends install gcc libstdc++-10-dev libpython3.9-dev
 
